@@ -1,0 +1,35 @@
+.bigBox {
+  display: grid;
+  grid-template-columns: 1;
+  grid-template-rows: 1 1 1;
+
+  background-color: var(--secondary-color);
+  box-shadow: 15px 15px 0px var(--shadow);
+  border-radius: 50px;
+
+  width: 75vw;
+  height: 80vh;
+
+  overflow: hidden;
+}
+.yellow1 {
+  grid-column-start: 1;
+  grid-row-start: 1;
+  grid-column-end: 1;
+
+  display: inline-block;
+  max-height: 100vh;
+}
+
+.yellow2 {
+  grid-row-start: 1;
+  grid-column-start: 3;
+  grid-column-end: 3;
+}
+
+.white {
+  background-color: var(--secondary-color);
+  grid-row-start: 1;
+  grid-column-start: 2;
+  grid-column-end: 2;
+}

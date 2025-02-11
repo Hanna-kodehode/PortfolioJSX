@@ -1,0 +1,36 @@
+/*footer*/
+
+.footer {
+  background-color: var(--navfoot-color);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 100px 250px;
+  width: 100vw;
+}
+.footer a,
+footer p {
+  text-decoration: none;
+  color: #ffffffcc;
+  font-size: medium;
+  font-family: var(--main-font);
+}
+
+.hug {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* footer tablets/phones */
+@media (max-width: 808px) {
+  .footer {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+  .footer div {
+    padding: 5px;
+  }
+}

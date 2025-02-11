@@ -1,0 +1,17 @@
+.bigBox {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  flex-direction: row;
+  box-shadow: 15px 15px 0px rgba(0, 0, 0, 0.758);
+  background-color: var(--secondary-color);
+  width: 75vw;
+  height: 80vh;
+  border-radius: 50px;
+  overflow: hidden;
+}
+.yellow {
+  max-width: 30vw;
+  display: inline-block;
+  max-height: 100vh;
+}

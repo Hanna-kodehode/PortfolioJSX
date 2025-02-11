@@ -1,0 +1,98 @@
+/* General nav styles */
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--navfoot-color);
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.navLinks {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.hamburger {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.hamburger img {
+  width: 30px;
+  height: 30px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  background-color: var(--navfoot-color);
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  justify-content: space-between;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav img {
+  max-height: 30px;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+nav a,
+nav p {
+  align-items: end;
+  text-decoration: none;
+  margin: 0 10px;
+  padding: 10px 10px;
+  color: #000;
+  font-family: var(--second-font);
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  color: var(--secondary-color);
+}
+
+#ContactStyle {
+  color: var(--secondary-color);
+  background-color: #000000;
+  border-radius: 5px;
+  max-width: 25wv;
+}
+
+/* On smaller screens */
+@media (max-width: 900px) {
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background-color: var(--navfoot-color);
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .nav-links.active {
+    display: flex; /* Show links when active */
+  }
+
+  .hamburger {
+    display: block; /* Show hamburger button */
+  }
+}

@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* Document base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding-top: 70px;
+  background-color: var(--background-color);
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+.mainContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* Fonts and colors*/
+:root {
+  --navfoot-color: #4f4789;
+  --background-color: #9899a6;
+  --text-color: #000000;
+  --secondary-color: #ffff;
+  --yellow-one: #ecd444;
+  --yellow-two: #b19f33;
+  --shadow: #000000c1;
+  --main-font: "Montserrat", sans-serif;
+  --second-font: "Bungee", sans-serif;
+}
