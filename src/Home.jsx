@@ -3,8 +3,8 @@ import HomeStyle from "./modules/home.module.css";
 function Home() {
   return (
     <div id="Home" className={HomeStyle.bigBox}>
-      <div className={HomeStyle.yellow1}>
-        <img src="/public/photos/gul.png" alt="Yellow decoration" />
+      <div className={HomeStyle.background}>
+        <img src="/public/photos/background.png" alt="Yellow background" />
       </div>
       <div className={HomeStyle.white}>
         <h1>Hanna S. Kristoffersen</h1>
@@ -28,9 +28,6 @@ function Home() {
             </a>
           </div>
         </div>
-      </div>
-      <div className={HomeStyle.yellow2}>
-        <img src="/public/photos/gul.png" alt="Yellow decoration" />
       </div>
     </div>
   );
