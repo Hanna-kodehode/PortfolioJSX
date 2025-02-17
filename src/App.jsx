@@ -9,30 +9,23 @@ function App() {
   return (
     <>
       {/* Nav */}
-      <nav>
-        <Nav />
-      </nav>
+
+      <Nav />
 
       {/* Body */}
       <div className="mainContent">
-        {/*  */}
-        {/* Home */}
         <Home />
 
-        {/* About me */}
         <About />
 
-        {/* My work */}
         <Work />
 
-        {/* Contact */}
         <Contact />
       </div>
 
       {/* Footer */}
-      <footer>
-        <Footer />
-      </footer>
+
+      <Footer />
     </>
   );
 }

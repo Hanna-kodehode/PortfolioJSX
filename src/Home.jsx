@@ -3,31 +3,24 @@ import HomeStyle from "./modules/home.module.css";
 function Home() {
   return (
     <div id="Home" className={HomeStyle.bigBox}>
-      <div className={HomeStyle.background}>
-        <img src="/public/photos/background.png" alt="Yellow background" />
-      </div>
       <div className={HomeStyle.white}>
         <h1>Hanna S. Kristoffersen</h1>
-        <p>Junior Front-End Utvikler</p>
-        <hr />
-        <button>Last ned min CV her</button>
-        <hr />
-        <div>
-          <img src="" alt="" />
+        <h4>Junior frontend utvikler</h4>
+        <span></span>
+        <a href="/cv.docx" download>
+          <button>Last ned min CV her!</button>
+        </a>
+        <span></span>
+        <div className={HomeStyle.imgDiv}>
+          <img src="photos/ix_e-mail.png" alt="Email icon" />
           <p>hanna.kodehode@gmail.com</p>
-          <div>
-            <a href="">
-              <img src="" alt="" />
-              <p>Figma</p>
-            </a>
-          </div>
-          <div>
-            <a href="">
-              <img src="" alt="" />
-              <p>Github</p>
-            </a>
-          </div>
         </div>
+        <a href="https://github.com/Hanna-kodehode">
+          <div className={HomeStyle.imgDiv}>
+            <img src="/photos/mdi_github.png" alt="Github icon" />
+            <p>Min Github</p>
+          </div>
+        </a>
       </div>
     </div>
   );
