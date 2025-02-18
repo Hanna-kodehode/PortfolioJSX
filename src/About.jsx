@@ -27,11 +27,11 @@ function About() {
         </p>
       </div>
       <div className={AboutStyle.yellow}>
-        <img src="/public/photos/gul.png" alt="Yellow decoration" />
+        <img src="public/photos/gul.png" alt="Yellow decoration" />
       </div>
       <img
         className={AboutStyle.portrait}
-        src="/public/photos/me background.png"
+        src="public/photos/me background.png"
         alt="Portrait of me"
       />
     </div>

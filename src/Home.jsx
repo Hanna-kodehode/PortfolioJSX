@@ -17,7 +17,7 @@ function Home() {
         </div>
         <a href="https://github.com/Hanna-kodehode">
           <div className={HomeStyle.imgDiv}>
-            <img src="/photos/mdi_github.png" alt="Github icon" />
+            <img src="photos/mdi_github.png" alt="Github icon" />
             <p>Min Github</p>
           </div>
         </a>

@@ -73,6 +73,32 @@ nav p {
   max-width: 25wv;
 }
 
+.button2 {
+  font-size: 1.25rem;
+  background-color: none;
+  color: var(--text-color);
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  box-shadow: var(--shadow);
+  cursor: pointer;
+}
+
+.button1 {
+  font-size: 1.25rem;
+  background-color: var(--button1);
+  color: var(--secondary-color);
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  box-shadow: var(--shadow);
+  cursor: pointer;
+}
+
+.button1:hover {
+  background-color: #393939;
+}
+
 /* On smaller screens */
 @media (max-width: 900px) {
   .nav-links {
@@ -89,10 +115,10 @@ nav p {
   }
 
   .nav-links.active {
-    display: flex; /* Show links when active */
+    display: flex;
   }
 
   .hamburger {
-    display: block; /* Show hamburger button */
+    display: block;
   }
 }

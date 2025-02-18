@@ -34,11 +34,11 @@ function Work() {
         </div>
       </div>
       <div className={WorkStyle.yellow}>
-        <img src="/public/photos/gul.png" alt="Yellow decoration" />
+        <img src="public/photos/gul.png" alt="Yellow decoration" />
       </div>
       <img
         className={WorkStyle.porttrait}
-        src="/public/photos/me background.png"
+        src="public/photos/me background.png"
         alt="Portrait of me"
       />
     </div>
