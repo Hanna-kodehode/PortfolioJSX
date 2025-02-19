@@ -91,3 +91,13 @@ span {
   width: 30vw;
   padding: 10px 0px;
 }
+
+.inputDiv {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 5px 0;
+  margin: 5px 0;
+  color: #393939;
+}
