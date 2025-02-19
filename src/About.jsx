@@ -31,7 +31,7 @@ function About() {
 
         <img
           className={AboutStyle.portrait}
-          src="public/photos/me background.png"
+          src="public/photos/me-background.png"
           alt="Portrait of me"
         />
       </div>
