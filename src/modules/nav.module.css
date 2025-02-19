@@ -66,13 +66,6 @@ nav p {
   color: var(--secondary-color);
 }
 
-#ContactStyle {
-  color: var(--secondary-color);
-  background-color: #000000;
-  border-radius: 5px;
-  max-width: 25wv;
-}
-
 .button2 {
   font-size: 1.25rem;
   background-color: none;
@@ -82,6 +75,13 @@ nav p {
   border: none;
   box-shadow: var(--shadow);
   cursor: pointer;
+  font-family: var(--second-font);
+}
+
+.button2:hover {
+  text-decoration: none;
+  color: #252525;
+  font-family: var(--second-font);
 }
 
 .button1 {
@@ -93,10 +93,14 @@ nav p {
   border: none;
   box-shadow: var(--shadow);
   cursor: pointer;
+  font-family: var(--second-font);
 }
 
 .button1:hover {
   background-color: #393939;
+  text-decoration: none;
+  color: var(--secondary-color);
+  font-family: var(--second-font);
 }
 
 /* On smaller screens */

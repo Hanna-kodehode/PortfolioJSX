@@ -4,7 +4,7 @@
   max-height: 65vh;
   width: auto;
   height: auto;
-  border-radius: 25%;
+  border-radius: 50px;
   border: #000000 solid;
   box-shadow: 15px 15px 0px rgba(0, 0, 0, 0.866);
   display: block;
@@ -32,7 +32,7 @@
   margin: 40px 0;
 
   /* Background */
-  background-image: url("/public/photos/Background.png");
+  background-image: url("/public/photos/background_flipped.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -44,16 +44,21 @@
   align-items: start;
   justify-content: center;
   flex-direction: column;
+  display: block;
+  margin: auto;
 
   /* Styling */
   background-color: var(--secondary-color);
-  height: 100vh;
-  width: 100%;
-  border-radius: 50px 0 0 50px;
-  padding: 50px;
+  max-width: 40vw;
+  max-height: 65vh;
+  width: auto;
+  height: auto;
+  border-radius: 50px;
+  padding: 20px;
   box-shadow: var(--shadow);
   text-align: left;
   overflow: hidden;
+  box-shadow: 15px 15px 0px rgba(0, 0, 0, 0.866);
 }
 
 h1 {
@@ -69,4 +74,23 @@ span {
 
 .p {
   margin: 15px 0;
+}
+
+.hug {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  object-fit: contain;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.links p {
+  text-decoration: none;
 }

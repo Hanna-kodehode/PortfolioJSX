@@ -7,10 +7,16 @@ function Nav() {
           <img src="public/photos/Logo.png" alt="Logo" />
         </div>
         <div className={NavStyle.navLinks}>
-          <a href="#Home">Heim</a>
-          <a href="#About">Om meg</a>
-          <a href="#Work">Prosjekt</a>
-          <a href="#Contact" id="ContactStyle">
+          <a href="#Home" className={NavStyle.button2}>
+            Heim
+          </a>
+          <a href="#About" className={NavStyle.button2}>
+            Om meg
+          </a>
+          <a href="#Work" className={NavStyle.button2}>
+            Prosjekt
+          </a>
+          <a href="#Contact" className={NavStyle.button1}>
             Get in touch
           </a>
         </div>

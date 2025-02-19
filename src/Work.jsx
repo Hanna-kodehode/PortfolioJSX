@@ -20,24 +20,22 @@ function Work() {
           med å lære og utvikle meg!
         </p>
         <span></span>
-        <div>
-          <a href="">
-            <img src="" alt="" />
-            <p>Github</p>
+        <div className={WorkStyle.links}>
+          <a href="https://github.com/Hanna-kodehode">
+            <div className={WorkStyle.hug}>
+              <img src="photos/mdi_github.png" alt="Github Logo" />
+              <p>Github</p>
+            </div>
           </a>
-        </div>
-        <div>
-          <a href="">
-            <img src="" alt="" />
-            <p>Figma</p>
+          <a href="https://www.figma.com/@e29d4a67_e3c6_4">
+            <div className={WorkStyle.hug}>
+              <img src="photos/logos_figma.png" alt="Figma Logo" />
+              <p>Figma</p>
+            </div>
           </a>
         </div>
       </div>
-      <img
-        className={WorkStyle.portrait}
-        src="photos/me background.png"
-        alt="Portrait of me"
-      />
+      <img className={WorkStyle.portrait} src="photos/Apps.png" alt="Apps" />
     </div>
   );
 }

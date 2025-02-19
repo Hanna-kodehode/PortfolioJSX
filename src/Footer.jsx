@@ -3,18 +3,22 @@ function Footer() {
   return (
     <>
       <div className={FooterStyle.footer}>
-        <div className={FooterStyle.hug}>
-          <div>
+        <a href="https://www.figma.com/@e29d4a67_e3c6_4">
+          <div className={FooterStyle.hug}>
             <img src="public/photos/logos_figma.png" alt="Figma logo" />
+            <p>Figma</p>
           </div>
-          <a href="https://www.figma.com/@e29d4a67_e3c6_4">Figma</a>
-        </div>
-        <div className={FooterStyle.hug}>
-          <div>
-            <img src="public/photos/mdi_github.png" alt="Github logo" />
+        </a>
+
+        <a href="https://github.com/Hanna-kodehode">
+          <div className={FooterStyle.hug}>
+            <div>
+              <img src="public/photos/mdi_github.png" alt="Github logo" />
+            </div>
+            <p>Github</p>
           </div>
-          <a href="https://github.com/Hanna-kodehode">Github</a>
-        </div>
+        </a>
+
         <div className={FooterStyle.hug}>
           <div>
             <img src="public/photos/ix_e-mail.png" alt="E-mail logo" />
