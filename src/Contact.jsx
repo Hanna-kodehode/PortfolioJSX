@@ -24,7 +24,6 @@ const Contact = () => {
       Swal.fire({
         title: "Suksess!",
         text: "Meldingen blei sendt!",
-        icon: "success",
       });
     }
   };

@@ -6,7 +6,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  padding: 50px 100px;
+  padding: 50px 20vw;
   width: 100%;
 }
 .footer a,
@@ -29,7 +29,7 @@ img {
   max-height: 100%;
 }
 
-/* footer tablets/phones */
+/* footer tablets/phones
 @media (max-width: 808px) {
   .footer {
     flex-direction: column;
@@ -39,4 +39,4 @@ img {
   .footer div {
     padding: 5px;
   }
-}
+} */

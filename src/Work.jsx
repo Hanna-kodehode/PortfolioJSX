@@ -5,7 +5,6 @@ function Work() {
     <div id="Work" className={WorkStyle.bigBox}>
       <div className={WorkStyle.white}>
         <h1>Prosjekt</h1>
-
         <span></span>
         <p className={WorkStyle.p}>
           På skulen har eg lært grunnleggande webutvikling og design, inkludert
@@ -14,7 +13,6 @@ function Work() {
           designe prototypar. Eg har òg blitt introdusert for viktige digitale
           ferdigheiter som problemløysing og samarbeid.
         </p>
-
         <p className={WorkStyle.p}>
           Eg er framleis tidleg i utviklinga mi, men eg er spent på å halde fram
           med å lære og utvikle meg!
@@ -35,7 +33,23 @@ function Work() {
           </a>
         </div>
       </div>
+
       <img className={WorkStyle.portrait} src="photos/Apps.png" alt="Apps" />
+
+      <div className={WorkStyle.buttons}>
+        <button className={WorkStyle.button3}>
+          <img
+            src="public/photos/lightLeft.png"
+            alt="Invalid arrow pointing left"
+          />
+        </button>
+        <button className={WorkStyle.button3}>
+          <img
+            src="public/photos/darkRight.png"
+            alt="Valid arrow to the right"
+          />
+        </button>
+      </div>
     </div>
   );
 }

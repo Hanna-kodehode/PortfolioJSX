@@ -6,7 +6,7 @@
   height: auto;
   border-radius: 50px;
   border: #000000 solid;
-  box-shadow: 15px 15px 0px rgba(0, 0, 0, 0.866);
+  box-shadow: var(--shadow);
   display: block;
   margin: auto;
   justify-self: center;
@@ -58,7 +58,7 @@
   box-shadow: var(--shadow);
   text-align: left;
   overflow: hidden;
-  box-shadow: 15px 15px 0px rgba(0, 0, 0, 0.866);
+  box-shadow: -15px 15px 0px rgba(0, 0, 0, 0.866);
 }
 
 h1 {
@@ -93,4 +93,27 @@ span {
 
 .links p {
   text-decoration: none;
+}
+
+.buttons {
+  grid-column: span 2;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 0 20px;
+}
+
+.button3 {
+  padding: 0;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.button3:hover {
+  box-shadow: none;
+  padding: 0;
+  border: none;
+  background: none;
+  transform: scale(1.1);
 }
