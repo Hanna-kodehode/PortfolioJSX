@@ -7,7 +7,7 @@ function Home() {
         <h1>Hanna S. Kristoffersen</h1>
         <h4>Junior frontend utvikler</h4>
         <span></span>
-        <a href="/cv.docx" download>
+        <a href="cv/cv.docx" download>
           <button>Last ned min CV her!</button>
         </a>
         <span></span>

@@ -16,7 +16,7 @@
   border-radius: 50px;
   margin: 40px 0;
   /* background */
-  background-image: url("/public/photos/Background.png");
+  background-image: url("/public/photos/Background_flipped.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

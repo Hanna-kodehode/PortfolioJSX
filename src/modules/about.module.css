@@ -1,36 +1,68 @@
+.portrait {
+  /* Positioning */
+  max-width: 40vw;
+  max-height: 65vh;
+  width: auto;
+  height: auto;
+  border-radius: 25%;
+  border: #000000 solid;
+  box-shadow: 15px 15px 0px rgba(0, 0, 0, 0.866);
+  display: block;
+  margin: auto;
+  justify-self: center;
+}
+
 .bigBox {
-  /* flex */
-  display: flex;
+  /* Flex to Grid */
+  display: grid;
+  grid-template-columns: 60% 40%;
   align-items: center;
   justify-content: center;
-  flex-direction: row;
-  overflow: hidden;
-  /* color and font */
+
+  /* Color and Font */
   color: var(--text-color);
   box-shadow: var(--main-shadow);
   background-color: var(--secondary-color);
   font-family: var(--main-font);
-  /* size */
+
+  /* Size */
   width: 75vw;
   height: 100vh;
   border-radius: 50px;
   margin: 40px 0;
-  /* background */
+
+  /* Background */
   background-image: url("/public/photos/Background.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
-.portrait {
+.white {
+  /* Layout */
   display: flex;
-  align-items: center;
+  align-items: start;
   justify-content: center;
-  position: absolute;
-  max-height: 65vh;
-  margin: 2.5vw 2.5vw;
-  border-radius: 25%;
-  border: #000000 solid;
-  box-shadow: 15px 15px 0px rgba(0, 0, 0, 0.866);
-  display: inline-block;
+  flex-direction: column;
+
+  /* Styling */
+  background-color: var(--secondary-color);
+  height: 100vh;
+  width: 100%;
+  border-radius: 50px 0 0 50px;
+  padding: 50px;
+  box-shadow: var(--shadow);
+  text-align: left;
+  overflow: hidden;
+}
+
+h1 {
+  color: var(--navfoot-color);
+  font-family: var(--second-font);
+}
+
+span {
+  display: block;
+  border-top: 2px solid var(--navfoot-color);
+  width: 30vw;
 }
