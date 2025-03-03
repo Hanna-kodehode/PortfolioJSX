@@ -1,57 +1,41 @@
 import WorkStyle from "./modules/work.module.css";
+import React from "react";
+import Slider from "react-slick";
 
-function Work() {
+// Pages
+import Page1 from "./Work pages/page1";
+import Page2 from "./Work pages/page2";
+import Page3 from "./Work pages/page3";
+import Page4 from "./Work pages/page4";
+import Page5 from "./Work pages/page5";
+
+export default function Work() {
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+  };
+
   return (
     <div id="Work" className={WorkStyle.bigBox}>
-      <div className={WorkStyle.white}>
-        <h1>Prosjekt</h1>
-        <span></span>
-        <p className={WorkStyle.p}>
-          På skulen har eg lært grunnleggande webutvikling og design, inkludert
-          HTML, CSS, JavaScript, 21. century skills og Figma. Desse verktøya har
-          gitt meg eit grunnlag for å lage enkle, responsive nettsider og
-          designe prototypar. Eg har òg blitt introdusert for viktige digitale
-          ferdigheiter som problemløysing og samarbeid.
-        </p>
-        <p className={WorkStyle.p}>
-          Eg er framleis tidleg i utviklinga mi, men eg er spent på å halde fram
-          med å lære og utvikle meg!
-        </p>
-        <span></span>
-        <div className={WorkStyle.links}>
-          <a href="https://github.com/Hanna-kodehode">
-            <div className={WorkStyle.hug}>
-              <img src="photos/mdi_github.png" alt="Github Logo" />
-              <p>Github</p>
-            </div>
-          </a>
-          <a href="https://www.figma.com/@e29d4a67_e3c6_4">
-            <div className={WorkStyle.hug}>
-              <img src="photos/logos_figma.png" alt="Figma Logo" />
-              <p>Figma</p>
-            </div>
-          </a>
-        </div>
-      </div>
+      <Slider {...settings}>
+        <Page1 />
+        <Page2 />
+        <Page3 />
+        <Page4 />
+        <Page5 />
+      </Slider>
 
-      <img className={WorkStyle.portrait} src="photos/Apps.png" alt="Apps" />
-
-      <div className={WorkStyle.buttons}>
+      {/* <div className={WorkStyle.buttons}>
         <button className={WorkStyle.button3}>
-          <img
-            src="public/photos/lightLeft.png"
-            alt="Invalid arrow pointing left"
-          />
+          <img src="/photos/lightLeft.png" alt="Arrow pointing left" />
         </button>
         <button className={WorkStyle.button3}>
-          <img
-            src="public/photos/darkRight.png"
-            alt="Valid arrow to the right"
-          />
+          <img src="/photos/darkRight.png" alt="Arrow pointing right" />
         </button>
-      </div>
+      </div> */}
     </div>
   );
 }
-
-export default Work;

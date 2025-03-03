@@ -4,7 +4,7 @@ function Nav() {
     <>
       <div className={NavStyle.nav}>
         <div className={NavStyle.logo}>
-          <img src="public/photos/Logo.png" alt="Logo" />
+          <img src="photos/Logo.png" alt="Logo" />
         </div>
         <div className={NavStyle.navLinks}>
           <a href="#Home" className={NavStyle.button2}>
